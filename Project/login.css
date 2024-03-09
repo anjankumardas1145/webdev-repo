@@ -1,0 +1,83 @@
+
+h1{
+    text-align: center;
+    color: rgb(153, 127, 255);
+    position: absolute;
+    left: 320px;
+    margin: 160px;
+    font-family:cursive;
+    
+}
+.container{
+    background-image: url(IMG_20230319_103357.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    background-color: rgb(37, 21, 50);
+    
+}
+::placeholder{
+    background-color: rgb(35, 30, 24);
+}
+.login{
+    padding: 25px;
+    position: relative;
+top:30px;
+}
+.format{
+    position: absolute;
+    padding: 40px;
+    transform: translate(50%,50%);
+    margin-left: 16rem;
+    border: 1px solid;
+    border-radius: 2px;
+    background: rgba(192, 9, 122, 0.3);
+    box-shadow: 0 2px 32px 0 rgba(5, 248, 244, 0.37);
+    backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(17, 14, 14, 0.18);
+
+}
+input{
+    margin: 10px;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border:1px solid rgb(0,0,0) ;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+
+}
+input:active{
+    background-color: rgb(60, 60, 218);
+}
+.btn{
+    background: rgb(62,104,245,0.5);
+    outline:none;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 65px;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 7px ;
+    border: 1px solid rgba(61,106, 255, 0.2);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #000000;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    transform: all 0.2s ease-in;
+    left: 40px;
+}
+.btn:hover{
+    background: rgb(1, 43, 182);
+    box-shadow: 0 0 40px 5px rgba(0, 142, 263, 0.815);
+    -webkit-transition: all  0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}

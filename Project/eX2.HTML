@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .spinner{
+            background-color: rgb(22, 6, 71);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid  white;
+            border-top: 20px  solid red;
+          animation-name: anjan;
+          animation-delay: 0s;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          left: 200px;
+          top: 100px;
+        }
+        @keyframes anjan{
+            to{
+             transform:rotate(260deg);   
+            }
+        }p{
+            color:yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="spinner">
+        <p>ANJAN</p>
+    </div>
+</body>
+</html>

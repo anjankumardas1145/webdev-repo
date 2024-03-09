@@ -1,0 +1,32 @@
+.container{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    border: solid 5px #9acd32;
+    
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 300px;
+h2{
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+}
+.box{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+    border:2px solid rgb(165, 42, 116);
+    margin: 5px;
+    padding: 5px;
+   /* box-shadow: 10px 10px yellowgreen;*/ 
+   box-shadow: 10px 20px 2px 20px green ;  
+}
+img{
+    align-items: center;
+}
+H2{
+    font-family: cursive;
+}

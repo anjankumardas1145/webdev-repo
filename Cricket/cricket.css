@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(200, 118, 170)
+}
+h3{
+    color:yellowgreen;
+}
+
+p{
+    color:rgb(56, 56, 10);
+}
+h2{
+    color:purple
+}
+h3{
+    color: rgb(26, 6, 46);
+  text-align: center;
+    font-size: 40px;
+}
+table{
+    color: rgb(47, 11, 13);
+}
+.abc{
+    color:rgb(86, 28, 28);
+}
+p{
+    font-size: 25px;
+    
+    font-style: italic;
+    font-weight:600;
+    text-align: center;
+    letter-spacing:1px;
+    word-spacing: 0cqh;
+    line-height: 2cqi;
+    text-shadow:2px 2px 5px red;
+    text-transform: capitalize;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+
+    
+    }  

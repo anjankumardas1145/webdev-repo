@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: solid 3px rgb(255, 47, 227);
+            background-color: beige;
+            display: flex;
+            flex-direction: row;
+        
+            width: 400px;
+        }
+        #box1{
+            border: solid 2px red;
+            margin:2px;
+        
+        width: 47%;
+
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        }
+        #box2{
+            background-color: yellow;
+            border:solid 2px blue;
+            margin: 3px;
+            padding: 4px;
+            width: 47%;
+        }
+        h4{
+            border:solid 1px blueviolet;
+            width: 70px;
+            font-family: cursive;
+        margin-left:30px ;
+        }
+        @media (max-width:650px) {
+            .container{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+<h4>BOX 1</h4>
+<P>ANJAN KIUMAR DAS</P>
+<h4>BOX 2</h4>
+<P>Ranjan kumar Das</P>
+        </div>
+        <div class="box" id="box2">
+            <img src="download.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>

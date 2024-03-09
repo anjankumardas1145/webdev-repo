@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Makara Sankranti Animated Page</title>
+    <style>
+        body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEFA; /* Sky Blue */
+}
+
+.sun {
+    width: 150px;
+    height: 150px;
+    background-color: #FFD700; /* Gold */
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    animation: rotateSun 10s linear infinite;
+}
+
+.kite {
+    width: 100px;
+    height: 150px;
+    background-color: #800080; /* Purple */
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -50px; /* Center the kite horizontally */
+    animation: floatKite 5s ease-in-out infinite;
+}
+
+@keyframes rotateSun {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes floatKite {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="sun"></div>
+    <div class="kite"></div>
+</body>
+</html>

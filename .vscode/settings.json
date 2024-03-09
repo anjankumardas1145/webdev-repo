@@ -1,0 +1,11 @@
+{
+    "livePreview.hostIP": " 192.168.1.10",
+    "livePreview.httpHeaders": {
+
+        "Accept-Ranges": "bytes"
+    },
+    "livePreview.tasks.runTaskWithExternalPreview": false,
+    "livePreview.showServerStatusNotifications": false,
+    "livePreview.debugOnExternalPreview": false,
+    "livePreview.defaultPreviewPath": "/.vscode/bootstrap/index.html"
+}

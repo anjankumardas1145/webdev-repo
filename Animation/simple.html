@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+        }
+       html, body{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 100px;
+            font-weight: 80px;
+            position: relative;
+            color: blue;
+            font-family: cursive;
+            text-shadow: 2px 3px red;
+        }
+
+            h1::after{
+                content: " ";
+                position: absolute;
+                width: 100%;
+                height: 10px;
+                buttom:0;
+                background: #000;
+                left: 0;
+                animation-name: linefe;
+                animation-duration: 2s;
+                
+
+            }
+           @keyframes linefe {
+            0%{
+width: 0;
+left: 0;
+            }
+            50%{
+               width: 100%; 
+               left: 0;
+            }
+            100%{
+                width: 0%;
+                left: 100%;
+            }
+            
+           } 
+        }
+    </style>
+</head>
+<body>
+  <h1>Anjan Kumar Das</h1>  
+</body>
+</html>

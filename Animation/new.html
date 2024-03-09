@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+height: 780px;
+width:1500px ;
+padding: 5px;
+margin: 5px;
+background-color: blue;
+border: solid 3px yellowgreen;
+        }
+        .box1{
+            border: solid  2px pink;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+             border-radius:30px ;
+             
+             
+            animation-name: circle;
+            animation-duration: 5s;
+        }
+        @keyframes circle {
+            0%{
+                left: 0;
+                top:0;
+                background-color: green;
+                rotate: ;
+            }
+            40%{
+                top: 0px;
+                left: 75%;
+                background-color: chocolate;
+                rotate: 120deg;
+            }
+            100%{
+                top: 80%;
+                left: 75%;
+                background-color: black;
+                rotate: 120deg;
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width:100%;
+
+}
+#box{
+    height:300px;
+    width:300px;
+    background-color: rgb(9, 143, 9);
+    position: absolute;
+    animation-name: anjan;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in;
+
+}
+@keyframes anjan{
+   0%{
+    left: 0;
+    top: 0;
+    background-color: aqua;
+    rotate: 0deg;
+   }
+   50%{
+    left: 75%;
+    top: 0px;
+    background-color: pink;
+    rotate: 360deg;
+   }
+   100%{
+    left: 75%;
+    top: 60%;
+    background-color: blueviolet;
+    rotate: 360deg;
+   }
+   
+
+
+    </style>
+</head>
+<body>
+   <div id="box">
+
+   </div> 
+</body>
+</html>

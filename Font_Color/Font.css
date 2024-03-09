@@ -1,0 +1,38 @@
+p{
+    font-family: 'Baloo Bhaina 2', sans-serif; 
+    font size: ;
+    line-height: 15px;
+    font-weight: 900;
+    line height: 20px;
+    border: solid red 5px;
+    border-radius:15px;
+}
+
+h2{
+    background-color: rgb(132, 255, 0);
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 300px;;
+
+}
+.one{
+    background-color: rgb(145, 188, 225);
+    width: 300px;
+
+}
+.two{
+    background-color: aqua;
+    width: 300px;
+    margin:15px;
+    
+    padding: 15px 20px 20px 30px;
+
+}
+.three{
+    background-color: rgb(156, 110, 200);
+    width: 300px;
+
+
+}

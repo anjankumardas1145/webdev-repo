@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .container{
+        border: solid 2px rgb(6, 40, 9) ;
+    background-color: blueviolet;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+
+    }
+    .div{
+        border: solid 2px rgb(195, 195, 52);
+margin: 3px;
+padding: 3px;
+height: 200px;
+width: 200px;
+    }
+    #b1{
+        background-color: aquamarine;
+    }
+    #b2{
+        background-color: rgb(204, 204, 190);
+    }
+    #b3{
+        background-color: rgb(137, 13, 102);
+    }
+    #b4{
+        background-color: chocolate;
+    }
+    @media (min_width: 640px) {
+        .container{
+            flex-direction: row;
+        }
+        
+    }
+    @media (max-width:640px) {
+        .container{
+            flex-direction: column;
+        }
+        
+    }
+
+
+   </style>
+</head>
+<body>
+<div class="container">
+    <div class="div" id="b1">box1</div>
+    <div class="div" id="b2">box2</div>
+    <div class="div" id="b3">box3</div>
+    <div class="div" id="b4">box4</div>
+</div>
+</body>
+
+</html>

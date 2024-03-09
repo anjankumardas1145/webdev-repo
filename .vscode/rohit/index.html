@@ -1,0 +1,105 @@
+j<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+        --var1:rgb(158, 153, 121);
+        --var2:rgb(195, 19, 198);
+        --var3:rgb(153, 77, 211);
+        --var4:rgb(166, 67, 9);
+        --backcolor:rgb(70, 70, 5);
+
+
+        }
+        body{
+            background-color: rgb(73, 88, 171);
+        }
+        .container{
+            position: relative;
+            display:flex;
+            justify-content: center;
+            /* align-items: center; */
+            margin-top: 190px;
+            bottom: 20px;
+        }
+        ul{
+            display: flex;
+
+        }
+        ul li{
+            padding: 20px;
+            list-style: none;
+            
+        }
+        
+        ul li:first-child{
+            /* local variable */
+            
+            background-color:var(--var1)
+        }
+        ul li:nth-child(2){
+            background-color: var(--var2);
+        }
+        ul li:nth-child(3){
+            background-color: var(--var3);
+        }
+        ul li:nth-child(4){
+            background-color: var(--var4);
+        }
+        nav{
+            background-color:var(--backcolor);
+
+        }
+        li{
+            border: solid 2px greenyellow;
+            border-radius: 3px;
+            margin: 2px;
+            font-size:larger;
+            font-style: italic;
+        }
+        .para1{
+            
+            position: relative;
+            top:160px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px rgb(195, 31, 47);
+            font-family:cursive;
+            font-style: italic;
+
+        }
+        .para{
+            letter-spacing: 2px;
+            text-shadow: 1px 1px rgb(195, 231, 11);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur voluptate cum quibusdam asperiores vel ut, ipsam blanditiis, dolore tempore veritatis deleniti atque quaerat est voluptates? Vel natus reprehenderit quis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi qui illum recusandae dignissimos mollitia laboriosam exercitationem autem perspiciatis tempora, ab numquam nisi! Vel repudiandae, cum repellat beatae ab eum temporibus quisquam modi nobis consequatur eius repellendus libero laboriosam quod! Ratione nihil blanditiis ipsam est et. Dolorem aut, atque quis porro illum dolore nulla nam quod vitae distinctio non, accusantium et architecto est enim! Amet eum, error aliquid necessitatibus, natus impedit itaque fugit harum distinctio nesciunt asperiores quos eligendi perferendis nobis odio nam porro laborum dolorem laboriosam quam autem repudiandae molestias blanditiis. Dolores asperiores commodi consequuntur, similique deleniti dignissimos minima nihil.
+    </div>
+    <div class="container">
+    <nav>
+        <ul>
+            <li>ANJAN</li>
+            <li>ROHIT</li>
+            <li>VIRAT</li>
+            <li>YUVRAJ</li>
+        </ul>
+    </nav>
+</div>
+<div class="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo porro officia aliquam neque nam voluptatem dolorum, corporis aut incidunt. Sequi suscipit ipsa beatae consectetur harum debitis architecto velit.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque est ipsam omnis expedita nemo provident cumque repellat ullam unde veniam adipisci minima, voluptates sint maxime consequatur quae asperiores debitis voluptatem facilis pariatur aperiam! Voluptatem accusantium facilis numquam in dolor.
+
+</div>
+</body>
+</html>
