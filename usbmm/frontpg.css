@@ -1,0 +1,49 @@
+.d{
+  border: 3px solid black; height:900px; width:900px; margin:20px; margin-left:300px
+}
+img{
+  margin-left:30%; 
+}
+input{
+  border-bottom: 1px dashed black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+
+}
+
+
+#p1{
+  margin-left: 15%
+}
+
+#d1{
+  display: flex;
+  justify-content: space-between;
+}
+#d2{
+  display: flex;
+  justify-content: space-between;
+}
+#d3{
+  display: flex;
+  justify-content: space-between;
+}
+#d4{
+  display: flex;
+  justify-content: space-between;
+}
+#h1,
+h3 {
+text-align: center;
+color: blue;
+}
+fieldset{
+   width: 600px; height: 200px; 
+margin-left:15%
+  }
+#d5{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
