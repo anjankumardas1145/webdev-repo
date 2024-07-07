@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1, footer p {
+  margin: 0;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ffa500;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Freedom Fighters List */
+ul.freedom-fighters-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;
+}
+
+ul.freedom-fighters-list li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+ul.freedom-fighters-list a {
+  text-decoration: none;
+  color: #0066cc;
+  transition: color 0.3s;
+}
+
+ul.freedom-fighters-list a:hover {
+  color: #004499;
+}
+
+/* Container and Profile Photo */
+.container {
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Sections and Lists */
+section {
+  text-align: left;
+  margin: 20px 0;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+section ul {
+  list-style: disc;
+  margin: 10px 20px;
+}
+
+section ul li {
+  margin: 5px 0;
+}
